@@ -4,7 +4,12 @@
 
 #include <iostream>
 
-// g++ -std=c++11 -Wall -g main.cpp -I/opt/homebrew/Cellar/allegro/5.2.10.1_1/include -L/opt/homebrew/Cellar/allegro/5.2.10.1_1/lib -lallegro_main -lallegro_primitives -lallegro -o main && ./main
+/*
+g++ -std=c++11 -Wall -g main.cpp \
+-I/opt/homebrew/Cellar/allegro/5.2.10.1_1/include \
+-L/opt/homebrew/Cellar/allegro/5.2.10.1_1/lib -lallegro_main \
+-lallegro_primitives -lallegro -o main && ./main
+*/
 
 using namespace std;
 
