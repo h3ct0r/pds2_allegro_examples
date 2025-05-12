@@ -1,6 +1,8 @@
 main.dSYM/*
 main
 main.dSYM
+.DS_Store
+.DS_Store/*
 
 # Prerequisites
 *.d
