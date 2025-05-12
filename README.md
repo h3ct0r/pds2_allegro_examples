@@ -8,9 +8,7 @@
     - `cd example_0_basic_window_init`
     - ```
         g++ -std=c++11 -Wall -g main.cpp \
-        -I/opt/homebrew/Cellar/allegro/5.2.10.1_1/include \
-        -L/opt/homebrew/Cellar/allegro/5.2.10.1_1/lib -lallegro_main -lallegro_image \
-        -lallegro_primitives -lallegro_acodec -lallegro_audio -lallegro_ttf \
-        -lallegro_font -lallegro -o main
+        (pkg-config --libs --cflags allegro-5 allegro_main-5 allegro_audio-5 allegro_image-5 allegro_font-5 allegro_primitives-5 allegro_acodec-5 allegro_ttf-5) \
+        -o main
         ```
     - Run the executable file `./main`

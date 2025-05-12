@@ -19,12 +19,10 @@ const int SCREEN_H = 600;
 int main(int argc, char **argv) {
     // Initialize Allegro
     ALLEGRO_DISPLAY *display = NULL;
-    ALLEGRO_TIMER *timer = NULL;
 
     // Initialization routines
     al_init();
     al_init_primitives_addon();
-    timer = al_create_timer(1.0 / FPS);
 
     display = al_create_display(SCREEN_W, SCREEN_H);
 
